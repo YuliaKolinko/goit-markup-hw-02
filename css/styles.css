@@ -1,8 +1,8 @@
 font-family: "Roboto", serif;
 font-family: "Raleway", serif;
 body {
-  font-family: "Roboto", serif;
-  background-color: FFFFFF;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
   color: #434455;
 }
 ul,
@@ -67,27 +67,26 @@ a {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: #fff;
 }
 .hero-section-button {
-  border-radius: 4px;
-  padding: 16px 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   width: 169px;
   height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
-}
-.hero-section-button:hover {
-  background: #404bbf;
-}
-.hero-section-button-text {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: left;
+  background: #4d5ae5;
   color: #fff;
+  cursor: pointer;
+}
+.hero-section-button:hover,
+.hero-section-button:focus {
+  background: #404bbf;
+}
+.hero-section-button-text {
 }
 .section-about {
 }
@@ -99,7 +98,7 @@ a {
 }
 .section-about-item {
 }
-.section-about-h3-title {
+.section-about-card-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -123,20 +122,22 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
+
   color: #2e2f42;
 }
 .section-our-team-list {
 }
 .section-our-team-item {
+  background-color: #ffffff;
 }
-.section-our-team-h3-title,
-.section-our-portfolio-h3-title {
+.section-our-team-subtitle,
+.section-our-portfolio-subtitle,
+.section-about-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: #2e2f42;
 }
 .section-our-team-paragraf,
@@ -145,7 +146,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: #434455;
 }
 .section-our-portfolio {
