@@ -65,7 +65,7 @@ a {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-
+  text-align: center;
   color: #fff;
 }
 .hero-section-button {
@@ -87,7 +87,6 @@ a {
 .section-about {
 }
 .section-about-title {
-  display: none;
 }
 
 .section-about-list {
@@ -106,7 +105,8 @@ a {
   background: #f4f4fd;
 }
 .section-our-team-title,
-.section-our-portfolio-title {
+.section-our-portfolio-title,
+.section-about-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
